@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code\\HibernationRestart\\HibernationRestart.csproj": {}
+    "D:\\Code\\HibernationRestart\\HibernationRestart.csproj": {}
   },
   "projects": {
-    "F:\\Code\\HibernationRestart\\HibernationRestart.csproj": {
+    "D:\\Code\\HibernationRestart\\HibernationRestart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\HibernationRestart\\HibernationRestart.csproj",
+        "projectUniqueName": "D:\\Code\\HibernationRestart\\HibernationRestart.csproj",
         "projectName": "HibernationRestart",
-        "projectPath": "F:\\Code\\HibernationRestart\\HibernationRestart.csproj",
-        "packagesPath": "C:\\Users\\FattyGaming\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\HibernationRestart\\obj\\",
+        "projectPath": "D:\\Code\\HibernationRestart\\HibernationRestart.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\HibernationRestart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FattyGaming\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
