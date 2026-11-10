@@ -1,14 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>HibernationRestart</AssemblyName>
+    <RootNamespace>HibernationRestart</RootNamespace>
+    <!-- Build straight into a folder that mirrors the server's plugin layout. -->
+    <OutputPath>addons\counterstrikesharp\plugins\HibernationRestart\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+  </PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="CounterStrikeSharp.API" Version="*" />
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.365" />
+  </ItemGroup>
 
 </Project>

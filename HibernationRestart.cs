@@ -1,6 +1,5 @@
 using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
-using CounterStrikeSharp.API.Core.Attributes.Registration;
 
 namespace HibernationRestart;
 
@@ -10,18 +9,19 @@ public class HibernationRestart : BasePlugin
 
     public override string ModuleName => "Hibernation Restart";
     public override string ModuleDescription => "Runs mp_restartgame 1 when the server wakes from hibernation.";
-    public override string ModuleAuthor => "";
-    public override string ModuleVersion => "1.0.0";
+    public override string ModuleAuthor => "Fatty";
+    public override string ModuleVersion => "1.0.1";
 
     public override void Load(bool hotReload)
     {
+        RegisterListener<Listeners.OnServerHibernationUpdate>(OnServerHibernationUpdate);
+
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine($"[{ModuleName}] Loaded. Will run mp_restartgame 1 when server wakes from hibernation.");
         Console.ResetColor();
     }
 
-    [ListenerHandler<Listeners.OnServerHibernationUpdate>]
-    public void OnServerHibernationUpdate(bool isHibernating)
+    private void OnServerHibernationUpdate(bool isHibernating)
     {
         if (_wasHibernating && !isHibernating)
         {

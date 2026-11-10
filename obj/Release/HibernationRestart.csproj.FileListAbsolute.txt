@@ -1,0 +1,13 @@
+D:\Code\HibernationRestart\addons\counterstrikesharp\plugins\HibernationRestart\HibernationRestart.deps.json
+D:\Code\HibernationRestart\addons\counterstrikesharp\plugins\HibernationRestart\HibernationRestart.dll
+D:\Code\HibernationRestart\addons\counterstrikesharp\plugins\HibernationRestart\HibernationRestart.pdb
+D:\Code\HibernationRestart\obj\Release\HibernationRestart.csproj.AssemblyReference.cache
+D:\Code\HibernationRestart\obj\Release\HibernationRestart.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\HibernationRestart\obj\Release\HibernationRestart.AssemblyInfoInputs.cache
+D:\Code\HibernationRestart\obj\Release\HibernationRestart.AssemblyInfo.cs
+D:\Code\HibernationRestart\obj\Release\HibernationRestart.csproj.CoreCompileInputs.cache
+D:\Code\HibernationRestart\obj\Release\HibernationRestart.sourcelink.json
+D:\Code\HibernationRestart\obj\Release\HibernationRestart.dll
+D:\Code\HibernationRestart\obj\Release\refint\HibernationRestart.dll
+D:\Code\HibernationRestart\obj\Release\HibernationRestart.pdb
+D:\Code\HibernationRestart\obj\Release\ref\HibernationRestart.dll
