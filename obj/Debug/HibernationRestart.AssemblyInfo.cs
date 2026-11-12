@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HibernationRestart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa875bceb7c76bd6bd6b2d1686feb0984eb10751")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce6b73b558d2febc9c2d304319c7c5028ba1a032")]
 [assembly: System.Reflection.AssemblyProductAttribute("HibernationRestart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HibernationRestart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
